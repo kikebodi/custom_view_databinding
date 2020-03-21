@@ -24,14 +24,14 @@ class AmountSelectorView @JvmOverloads constructor(context: Context, attrs: Attr
 
     fun onPlusClicked() = selectedAmount.set(selectedAmount.get() + 1)
 
-    companion object{
+    @InverseBindingMethods(InverseBindingMethod(type = AmountSelectorView::class, attribute = "amount", method = "getAmount"))
+    object AmountBindingAdapter{
         @BindingAdapter("amount")
         @JvmStatic fun setAmount(view: AmountSelectorView, newAmount: Int) {
             if(view.selectedAmount.get() != newAmount){
                 view.selectedAmount.set(newAmount)
             }
         }
-
 
         @InverseBindingAdapter(attribute = "amount")
         @JvmStatic fun getAmount(view: AmountSelectorView): Int {
