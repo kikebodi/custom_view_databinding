@@ -4,7 +4,7 @@ This an example of a Kotlin Custom View that uses 2 way data binding to manage t
 
 Technologies:
 * Android - Kotlin
-* Databinding
+* Data binding (two-way data binding)
 * LiveData and ViewModel (from [Android Architecture Components](https://developer.android.com/topic/libraries/architecture))
 
 ## Getting Started
