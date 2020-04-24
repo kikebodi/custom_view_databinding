@@ -14,8 +14,9 @@ git clone https://github.com/kikebodi/custom_view_databinding
 ```
 
 ## Step by step
-[Written tutorial](https://kikebodi.com/two-way-databinding-android.html))
-[Live coding video](https://www.youtube.com/watch?v=CoOcEv6sFkI))
+[Written tutorial](https://kikebodi.com/two-way-databinding-android.html)
+
+[Live coding video](https://www.youtube.com/watch?v=CoOcEv6sFkI)
 
 ## License
 
